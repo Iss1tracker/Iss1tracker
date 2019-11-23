@@ -1,0 +1,17 @@
+name: CI
+Iss1tracker 
+on: [push]
+Iss1tracker 
+jobs:
+  build:
+Phone application emulator developer sites for all operating systems
+    runs-on: ubuntu-latest
+The Android Developer Emulator enables success and adaptation to fast processing of all operating systems and servers
+    steps:servers 
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |high
+        echo Add other actions to build,
+        echo test, and deploy your project.
