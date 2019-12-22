@@ -1,0 +1,17 @@
+.name: CI
+..iss1Tracker 
+...on: [push]
+....Github.com 
+.....jobs:
+......  build:
+.......apps 
+    runs-on: ubuntu-latest
+........future 
+.........    steps:
+    1- uses: actions/checkout@v1
+    2- name: Run a one-line script
+    3- run: echo Hello, world!
+    4- name: Run a multi-line script
+    5- run:iss1Tracker |
+    6- echo Add other actions to build,
+    7- echo test, and deploy your project.
